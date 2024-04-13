@@ -89,6 +89,13 @@ repositories {
             includeGroup "dev.shadowsoffire"
         }
     }
+	maven {
+		url "https://maven.pkg.github.com/CJACOBSON32/Apothic-Attributes-Rebalanced"
+		credentials {
+			username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
+			password = project.findProperty("gpr.key") ?: System.getenv("GITHUB_TOKEN")
+		}
+	}
 }
 
 dependencies {
@@ -106,7 +113,7 @@ dependencies {
     if(project.hasProperty('gamestagesVersion'))    compileOnly    fg.deobf("net.darkhax.gamestages:GameStages-Forge-${mcVersion}:${gamestagesVersion}")
     if(project.hasProperty('twilightFileId'))       implementation fg.deobf("curse.maven:the-twilight-forest-227639:${twilightFileId}")
     if(project.hasProperty('gatewaysVersion'))      implementation fg.deobf("dev.shadowsoffire:GatewaysToEternity:${mcVersion}-${gatewaysVersion}")
-    if(project.hasProperty('attributeslibVersion')) implementation fg.deobf("dev.shadowsoffire:ApothicAttributes:${mcVersion}-${attributeslibVersion}")
+    if(project.hasProperty('attributeslibVersion')) implementation fg.deobf("dev.Manalor:ApothicAttributes:${mcVersion}-${attributeslibVersion}")
 
     implementation fg.deobf("curse.maven:mmmmmmmmmmmm-225738:4602101")
     implementation fg.deobf("curse.maven:selene-499980:4656567")

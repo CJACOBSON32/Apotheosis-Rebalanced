@@ -1,9 +1,8 @@
-# Apotheosis [![](http://cf.way2muchnoise.eu/apotheosis.svg)](https://www.curseforge.com/minecraft/mc-mods/apotheosis) [![](http://cf.way2muchnoise.eu/versions/apotheosis.svg)](https://www.curseforge.com/minecraft/mc-mods/apotheosis)
+# Apotheosis Rebalanced [![](http://cf.way2muchnoise.eu/apotheosis.svg)](https://www.curseforge.com/minecraft/mc-mods/apotheosis) [![](http://cf.way2muchnoise.eu/versions/apotheosis.svg)](https://www.curseforge.com/minecraft/mc-mods/apotheosis)
 
-Apotheosis is a mod about adding additional layers of content to vanilla systems.  It doesn't add much in the way of blocks or items, but it adds a significant amount of content.
-It's divided into modules, each separate from another.  Any module can be disabled at will, but all the modules work best when they are all enabled.
+This is a fork of apotheosis
 
-The following modules are present:
+## Original Modules:
 * Enchanting: Adds a ton of extra enchantments, uncaps the enchanting table, and edits some core mechanics of the game.
   * Anvil: Anvils can be enchanted, and are also uncapped.
 * Spawner: Mob Spawners can be customized, and they can be changed to any type by acquiring spawn eggs.
